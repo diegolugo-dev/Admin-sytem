@@ -2,48 +2,59 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>OnPC System</title>
+  <title>Diego System</title>
   <link rel="icon" type="image/png" href="./public/favicon.png">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
+  </header>
 
-    <div class="limiter">
-      <div class="container">
-        <div class="wrap">
-          <div class="login100-pic js-tilt" data-tilt>
-            <img src="images/img-01.png" alt="IMG">
-          </div>
-  
-          <form class="form validate-form">
-            <span class="form-title">
-              Register
-            </span>
-  
-            <div class="wrap-input100 validate-input">
-              <input type="text" name="name" id="name" required placeholder="name" onfocus="this.placeholder=''" onblur="this.placeholder='name'">
-              <input type="text" name="lastname" id="lastname"  required placeholder="Last name" onfocus="this.placeholder=''" onblur="this.placeholder='Last Name'">
-              <select name="tipo_documento" id="tipo_documento">
-                <option value="id">C.I</option>
-                <option value="rif">R.I.F</option>
-              </select>
-              <input type="text" name="Number id" id="id" required>
-              <select name="area_code" id="area_code">
-                <option value="+58">+58</option>
-                <option value="+1">+1</option>
-              </select>
-              <input type="text" name="phone" id="phone" required placeholder="Phone" onfocus="this.placeholder=''" onblur="this.placeholder='Phone'">
-            </div>
-            <div>
-              <input type="submit" id="btnSave" value="Register">
-            </div>
-          </form>
-        </div>
+  <div class="container-form">
+    <div class="information">
+      <div class="info-childs">
+        <h2>Bienvenido</h2>
+        <p>sistema</p>
+        <input type="button" value="Iniciar secion">
       </div>
     </div>
+      <div class="form-information">
+      <div class="form-information-childs">
+        <h2>Crear una Cuenta</h2>
+        <div class="icons">
+          <i class='bx bxl-google'></i>
+          <i class='bx bxl-github'></i>
+          <i class='bx bxl-linkedin'></i>
+        </div>
+        <p>o usa tu email para registrarte</p>
+        <form>
+          <label>
+            <i class="bx bx-user"></i>
+            <input type="text" placeholder="Nombre completo">
+          </label>
+          <label>
+            <i class="bx bx-envelope"></i>
+            <input type="email" placeholder="mail">
+          </label>
+          <label>
+            <i class="bx bx-lock-alt"></i>
+            <input type="password" placeholder="pass">
+          </label>
+        </form>
+        <input type="submit" value="Registrase">
+      </div>
+     </div>
+    </div>
+  </div>
 
-  </header>
   <footer> Sistema de Inventario 2024 by Diego Developer </footer>
 </body>
