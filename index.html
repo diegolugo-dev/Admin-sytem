@@ -1,53 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Software de Inventario y Facturación</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
-  <header>
-    <h1>Toma el control de tu negocio con nuestro software de inventario y facturación</h1>
-    <h2>Simplifica la gestión de tu inventario, crea facturas profesionales y aumenta tu rentabilidad.</h2>
-  </header>
-  <section class="imagen">
-    <img src="https://img.freepik.com/vector-premium/ilustracion-sala-juntas-junta-directiva-que-reune-oficina_9829-74.jpg" alt="Software de inventario y facturación">
-  </section>
-  <section class="beneficios">
-    <h3>Beneficios</h3>
-    <ul>
-      <li>Organiza tu inventario</li>
-      <li>Facturación profesional</li>
-      <li>Ahorra tiempo</li>
-      <li>Mejora tu rentabilidad</li>
-      <li>Fácil de usar</li>
-    </ul>
-  </section>
-  <section class="testimonio">
-    <blockquote>
-      "Desde que usamos este software, la gestión de nuestro inventario ha sido mucho más eficiente. ¡Lo recomiendo encarecidamente!" - **Juan Pérez, CEO de Empresa XYZ**
-    </blockquote>
-  </section>
-  <section class="llamada-a-la-accion">
-    <a href="./public/login.html">Usar Sistema</a>
-  </section>
-  <section class="formulario-de-contacto">
-    <h2>Formulario de contacto</h2>
-    <form action="#">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre">
-      <label for="correo-electronico">Correo electrónico:</label>
-      <input type="email" id="correo-electronico" name="correo-electronico">
-      <label for="numero-de-telefono">Número de teléfono:</label>
-      <input type="tel" id="numero-de-telefono" name="numero-de-telefono">
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje"></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
-  <footer>
-    <p>Copyright &copy; 2023</p>
-  </footer>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" id="icono" class="icono">Menú</a>
+                <div class="enlaces uno" id="enlaces">
+                    <a href="">Inicio</a>
+                    <a href="">Acerca de</a>
+                    <a href="">Contacto</a>
+                </div>
+            </nav>
+            <div class="textos">
+                <h1>Diego System</h1>
+                <h2>Software profecional</h2>
+                <a href="./public/login.html">Usar</a>
+            </div>
+            <img src="vector.png" alt="">
+        </div>
+    </header>
+    <div class="wave">
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
