@@ -76,7 +76,7 @@ img{
     margin-top: 30px;
     border: 1px solid #fff;
     width: 150px;
-    border-radius: 3px;
+    border-radius: 30px;
     text-align: center;
     padding: 10px 0;
     animation: arriba 1s ease-in;
@@ -103,9 +103,9 @@ img{
     flex-direction: column;
     width: 100%;
     transition: all 1s ease;
-    background: #bc4e9c;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #04befe;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4481eb, #04befe);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4481eb, #04befe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
